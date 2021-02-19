@@ -1,0 +1,15 @@
+key: hfNOcaQ/DBNPz/CxnrEctjCmWfdCFHX33coS/bGk7OK12G0M1yOAZAAR00wGK/mQG4AM213qLXBw51rO2P9lGE4TDVdXXU8RUS2wNjNup4u0toLxB3JHJOZSryoFajhU9ScU/PnMxnyWpqs2PYPMTX3lZKXgXSNmo6UNN95Saq8d6p+QBlFvD1lDWmYxUQb+38Qi+KBhxT/G+7fC18mDYCCnKmYIkSpQb1tyJNKcVXF6HklThX0NCdCrJ+iy7uOErmbkpkVlEXSNeto2mtJgENGcOocPu6G+djYafZlwWJRZz3/tit72Ps/UKo1YCbyjgek5aFJ0/1OL0/EptIP3qa9du0m4pY9N90C+Gbr7MfHCXEVbjwwUYnrW+hoW7VgOr8TpuwK8yp25rGJtqGLzeDRm7RijqNbPOt28nOQsNzN9LL8bVxpKV4irCO1UctB8AbBUW7NgGROWvsBJa5Qsp1IM9naERD7d3diDaWoBgxfYV2QPoDhB6/tlqK7f901xKa2HzjlYuyGoHvzYdo1M4guwZt+SyeVoa8+Yyc1uU2ixcsRiL7Iq1VyUgBfJPLDVvx5q1fE4gFpA3U12m53UbicX255zjvhzWCAJx+PMS7EaOckWWdm1dWodKQAb65wgtjK2Uy6N853zNkAI7U0DOA==
+metrics:
+  plugins:
+    - name: jvmjolokia
+      enabled: true
+      interval: 300
+      config:
+        ip: 172.31.255.142
+        password: admin
+        protocol: http
+        username: admin
+        port: 8778
+        context: jolokia
+        monitorDeadlocks: false
+        deadLockMonitoringInterval: 300
