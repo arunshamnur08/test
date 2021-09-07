@@ -1,10 +1,6 @@
-key: Z1zHqK4rtUYIdJvJNdTTRPLa5Ntp5h0uAFBUWDoipFUdLFFE1OzfwboIXUQNLBhmckLPrywXscb0xzawb5Otw0qFy3fl+tw7TeW0BZhTpMv/s/buEcW6D+JoLNNd+yE+03B7Qy/5GEsG2ckwr5qasaP5NER35+FkIr5W+nD10ZdwrHZEyanZpD9D/ZdDocJ2ht9kFYKxd/Wh+ul65ZYFIcSwrP8mJfdrhNB6fPx37WiNxHqV7oHyHcyRLCPYlro570cUY+FHuHlEp2TxsDEiEe8iLnO4rc17szjmOxvSBfgxKiFBIZUoyGNI7rEQdp/7qhRnbebNUK6zzpKGci2vNLDTAVSScB4aqhl0AFDkXrzs3SFHvoDMvGguLcd+k53Z2DK2MoZwmNBY9DmPIki+b0PgOm4dxx5nH48Lw55qAy6LL4NRbeV/5X4/SQYNyaXP/nXfMo3jDWbjx2FlVBd1FYI8xT+cVIOu3GmeWIisAej5ba4tZCKh9IpD+2Sy5VyneyZkXTEgSA8gBM9zGoy08j0RwdbbdnJ6vzHI/U0u4huuhDctsqTXrRJ9QDdlHLstYtdxOgUfDI1IjUFWeo0dD2uWjz+Vm9VvuFFymySfFg59ZiyLfIbyimWI89bXUw/uir8EwQp7R7j7CNKXdWL/RA==
+key: U01u92rxLtEB8p4jKyi0mSqCQRkHMha0GgIB6ZHFGG3NxWLE4p+pv4zfOtKlHMNOZQeHFj09XRF6NlWbXZ+yclNpSrbS3fGGqOgIgvzalFYWjXNj2G2KmTPg83hCwX7D3O23PE7Flw1+qwGi0DA+DN3dFPPY3/Q2XoPizTVGBupXL+JWeuBRX4LHgl/Q+typlMj4PyEGgQayvuRGZWHr3vI+RDrvQEbjHJ0b5q/hhECDj/ADfI7QXyb3r6Sxsr6K8MOoGONqd3j7tqG14t7DozMXYnMTe30pQmdxri7DP8I4STouD+/S4UW96V5VQ3hoKQgoBYiLrNAR1yUXvziLheb5LRywtObVB7aOMJOZkZHCOzLEU1u0G3oNoYmm3PFa+3c5QOn5Oc5HG2LxmxHcohXgdltpKhZLWyxe4cnXU3T5UEkhni6lgH7J4STFD023/PFlWWouXOkbRx0ngKAzxj86VnZAiGQlOdsSdPbW7qVm8cSrMzCfamvoAHdbM+/I3f8Ao1XCfBGkEbtaZrg/zVIzphfOmUeYY5+u+Aja1NarGBlJEk7Ay+GE0jtUrj6r2BPA4SwgTjJF2Cp6ghTj84lxed167anQ5oiFx6E24P5Spu3MUlSFe1sTg4nsdjVIhGB+gfeh/BskrZ51uNsXnQHtE/ZL+u3ZQchiZq7UhRLxQmRKvTUVRwgnBaFjOEUti4YouPOunyyVvmhT8psy264e4m8qyPI3Gu+qlMrsktVPMbZpBCuF6jSG7dCPB/uEDKmDfHZk9dwNeRk4Tzna03ToVr4b/oFmtiC0nhVV2MvTN9NpdRlCOQxVbTne7Luj
+tags:
+  Name: haproxy 
+  appName: haproxy
+  projectName: Demo-QA-Apps 
 metrics:
-  plugins:
-    - name: nginx
-      enabled: true
-      interval: 300
-      config:
-        port: 80
-        secure: false
-        location: 'stats'
